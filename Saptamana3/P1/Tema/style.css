@@ -1,0 +1,92 @@
+/* a */
+
+li:nth-of-type(even) {
+    color:green;
+    
+}
+
+/* b */
+
+li:nth-child(3) {
+    background-color: rgb(0, 204, 255);
+    
+}
+
+
+/* c */
+
+li:first-child {
+    border-top: solid; 
+    border-top-color: green;
+    border-width: 1px;
+}
+
+/* d */
+
+li:last-child {
+    border-bottom: dashed;
+    border-right: 5px;
+    border-color: blue;
+}
+
+/* e */
+
+li:nth-child(3) a {
+    color:red;
+  }
+
+li:nth-child(5) a{
+    color:red;
+}
+
+
+/* f */
+li:nth-child(5) a:hover{ 
+    color:grey;
+
+}
+
+
+/* g */
+
+li:nth-child(2){
+    list-style-type: none;
+    
+}
+
+/* h */
+
+input[type=text]:focus{
+    background-color: grey;
+}
+
+/* i */
+
+input[placeholder="first name"] {
+   color :green;
+}
+
+/* j */
+
+input[placeholder="last name"]{
+    color:blue;
+}
+
+/* k */
+
+input[type=password]{
+    color:transparent;
+}
+
+/* l */
+
+input[type="email"]{
+    background-color: yellow;
+    color:purple;
+}
+
+/* m */
+
+input[type="submit"]:hover {
+    color:red;
+}
