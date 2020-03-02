@@ -1,0 +1,57 @@
+h1 {
+    border: solid red; 
+    background-color: #6A6;
+    padding: 10px;
+}
+
+ul li {
+    margin: 15px;
+    background-color: #DE1E7E;
+}
+
+p {
+    width: 500px;
+    height: 300px;
+    border: dotted black 2px;
+    background-color: #FB1;
+}
+
+a {
+    border-bottom: dashed blue;
+    background-color: #a1a1a1;
+}
+
+
+
+
+    
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    transform: translate(50%, -50%);
+    background: yellow;
+    color: white;
+  }
+  
+  .square1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .square2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+  }

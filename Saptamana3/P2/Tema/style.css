@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    border: solid green;
+}
+ .section {
+     position: relative;
+     border:solid yellow;
+     margin-left: 200px;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ nav {
+     position: absolute;
+     border:solid purple;
+     height:100px;
+     width: 195px;
+ }
+
+ footer {
+     clear:both; 
+     border: solid seagreen;
+ }

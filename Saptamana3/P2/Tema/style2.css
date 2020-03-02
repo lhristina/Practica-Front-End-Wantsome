@@ -1,0 +1,22 @@
+.container {
+    border: solid green;
+}
+ .section {
+     
+     border:solid yellow;
+     margin-left: 200px;
+     margin-top: 0;
+     margin-bottom: 0;
+     
+ }
+
+ nav {
+     float: left;
+     border:solid purple;
+     height:100px;
+     width: 195px;
+ }
+
+ footer {
+     
+     border: solid seagreen;}

@@ -1,0 +1,55 @@
+/* Global style */
+
+header {
+    font-weight: 300px;
+    font-family: 'Love Ya Like A Sister' ;
+    text-align: center;
+    
+}
+
+body {
+    
+    font-family: 'Love Ya Like A Sister' ;
+    background-color: paleturquoise;
+    list-style-position: inside;
+    text-align: center;
+}
+
+input[type] {
+    margin: 10px;
+    line-height: 10px;
+    background-color: peachpuff;
+    border-style: groove;
+    box-sizing: content-box;
+    color: darkviolet;
+}
+
+input[name] {
+    margin: 10px;
+}
+
+input[type="button"]:hover {
+    color:darkblue;
+    border-color: blue;
+    background-color: darkcyan;
+
+
+}
+
+option[value]{
+    line-height: 10px;
+    background-color: peachpuff;
+}
+    
+
+/* Class-id style */
+
+.box {
+    display: flex;
+
+    justify-items: center;
+    align-content: center;
+    
+}
+
+
