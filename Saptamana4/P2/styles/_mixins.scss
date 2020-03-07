@@ -1,0 +1,11 @@
+@mixin CV-button ($base, $hover) {
+    background-color:$base;
+    color: white;
+    border-radius: 2px;
+
+    &:hover {
+        color:$hover;
+    }
+    
+}
+

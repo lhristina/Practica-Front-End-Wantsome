@@ -1,0 +1,30 @@
+.grid-container {
+    display:grid; 
+    height: 500px;
+    text-align: center;
+
+    
+}
+
+.grid-item {
+    border:black solid 2px;
+    padding: 10px;
+    grid-column-gap:20px;
+    
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow{
+background-color: yellow;
+
+}
+    
+    
+ 

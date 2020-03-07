@@ -1,0 +1,12 @@
+@import 'mixins';
+@import 'nesting';
+@import 'variable';
+@import 'operators';
+
+body {
+    background-color: $blue;
+}
+
+input[type="button"] {
+    @include CV-button(red,green )
+    }

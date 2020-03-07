@@ -1,0 +1,14 @@
+body {
+  background-color: #3399ff;
+}
+
+input[type="button"] {
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+}
+
+input[type="button"]:hover {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
