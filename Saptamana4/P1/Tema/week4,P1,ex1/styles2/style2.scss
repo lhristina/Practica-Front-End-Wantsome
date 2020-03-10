@@ -6,7 +6,7 @@
 .container {
 width: 850px;
 height: 490px;
-margin: 25px auto;
+margin: 25px 25px;
 background-color:#fef9e7;
 
 
@@ -26,7 +26,7 @@ grid-gap: 25px;
 .main{
     display:flex;
     justify-content: space-around;
-    background: rgba(76, 175, 80, 0.3);
+    background: rgba(76, 175, 80, 0.7);
 
     .box-1{
         @include box($box1Image)
