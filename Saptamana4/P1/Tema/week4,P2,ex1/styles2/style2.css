@@ -1,0 +1,57 @@
+.container {
+  width: 850px;
+  height: 490px;
+  margin: 25px auto;
+  background-color: #fef9e7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 70px 250px 70px;
+      grid-template-rows: 70px 250px 70px;
+  grid-gap: 25px;
+}
+
+.header {
+  background-color: green;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: rgba(76, 175, 80, 0.3);
+}
+
+.main .box-1 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  background-image: url("https://www.arenaflowers.co.in/blog/wp-content/uploads/2017/09/Summer_Flowers_Lotus.jpg");
+  background-size: 250px 250px;
+}
+
+.main .box-2 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6EpK-a1eEYBrFGscxW7TSpW4w9DNGTuylPQn8Q0t2HuQo16Ce");
+  background-size: 250px 250px;
+}
+
+.main .box-3 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  background-image: url("https://www.arenaflowers.co.in/blog/wp-content/uploads/2017/09/Summer_Flowers_Lotus.jpg");
+  background-size: 250px 250px;
+}
+
+.footer {
+  display: inline;
+  background-color: green;
+}
+/*# sourceMappingURL=style2.css.map */

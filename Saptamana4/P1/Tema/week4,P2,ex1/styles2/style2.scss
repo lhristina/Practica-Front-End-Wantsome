@@ -1,0 +1,48 @@
+@import 'mixins';
+@import 'variables';
+
+
+
+.container {
+width: 850px;
+height: 490px;
+margin: 25px auto;
+background-color:#fef9e7;
+
+
+display:grid;
+
+grid-template-rows: 70px 250px 70px;
+grid-gap: 25px;
+    
+}
+
+.header{
+    
+    background-color: green;
+    
+}
+
+.main{
+    display:flex;
+    justify-content: space-around;
+    background: rgba(76, 175, 80, 0.3);
+
+    .box-1{
+        @include box($box1Image)
+    }
+    .box-2{
+       
+        @include box($box2Image)
+    }
+    .box-3{
+       
+        @include box($box3Image)
+    }
+}
+
+.footer{
+    display: inline;
+    background-color: green;
+
+}

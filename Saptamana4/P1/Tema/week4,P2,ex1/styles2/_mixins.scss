@@ -1,0 +1,11 @@
+@mixin box ($image) {   
+
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+        border:1px solid black;
+        background-image: url($image);
+        background-size:250px 250px;
+
+    
+}

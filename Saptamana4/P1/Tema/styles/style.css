@@ -1,0 +1,83 @@
+.container {
+  margin: 20px;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2] 200px;
+      grid-template-columns: repeat(2, 1fr) 200px;
+  -ms-grid-rows: 300px 300px 400px;
+      grid-template-rows: 300px 300px 400px;
+  grid-gap: 20px;
+      grid-template-areas: "vertical middle tall-title" "title middle tall-title" "wide-title wide-title tall-title";
+}
+
+.container > * {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.vertical {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: vertical;
+  background-color: turquoise;
+  color: white;
+}
+
+.middle {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: middle;
+  background-color: blue;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.middle .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: title;
+  background-color: yellow;
+  color: white;
+}
+
+.tall-title {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: tall-title;
+  background-color: #16f716;
+  color: white;
+}
+
+.wide-title {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: wide-title;
+  background-color: #e7165c;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
