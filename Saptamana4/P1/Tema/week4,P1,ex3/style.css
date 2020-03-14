@@ -2,11 +2,11 @@
   height: 100vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 49% 49%;
-      grid-template-columns: 49% 49%;
-  -ms-grid-rows: 49% 49%;
-      grid-template-rows: 49% 49%;
-  grid-gap: 2%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
   background: radial-gradient(#f69d3c, #3f87a6);
 }
 
