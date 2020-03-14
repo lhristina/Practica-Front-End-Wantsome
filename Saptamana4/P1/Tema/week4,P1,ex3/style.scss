@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+
+
+
+.container{
+   height: 100vh;
+
+    display:grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 49% 49% ;
+    grid-gap:2%;
+    background: radial-gradient(#f69d3c, #3f87a6);
+}
+
+.box1 {
+
+    @include box($box1Image);
+    display:flex;
+    align-items: flex-end;
+   
+}
+
+.box2 {
+    @include box ($box2Image);
+}
+
+.box3{
+    @include box ($box3Image);
+}
+
+.box4{
+    @include box($box4Image);
+}
+
+.text {
+    @include text;
+        
+}

@@ -1,0 +1,49 @@
+.container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 49% 49%;
+      grid-template-columns: 49% 49%;
+  -ms-grid-rows: 49% 49%;
+      grid-template-rows: 49% 49%;
+  grid-gap: 2%;
+  background: radial-gradient(#f69d3c, #3f87a6);
+}
+
+.box1 {
+  background-image: url("../Images/annie-spratt-Vp_A70Hb45s-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.box2 {
+  background-image: url("../Images/annie-spratt-YU66jLwBx3g-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url("../Images/bannon-morrissy-4SX_tb0GPQU-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box4 {
+  background-image: url("../Images/trent-bradley-uICqspTDw6k-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  width: 100%;
+  height: 15%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+}
+/*# sourceMappingURL=style.css.map */
