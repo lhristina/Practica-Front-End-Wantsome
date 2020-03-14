@@ -16,9 +16,7 @@
 .box1 {
 
     @include box($box1Image);
-    display:flex;
-    align-items: flex-end;
-   
+ 
 }
 
 .box2 {

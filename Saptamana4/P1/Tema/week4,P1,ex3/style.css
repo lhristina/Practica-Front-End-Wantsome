@@ -26,18 +26,36 @@
   background-image: url("../Images/annie-spratt-YU66jLwBx3g-unsplash.jpg");
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .box3 {
   background-image: url("../Images/bannon-morrissy-4SX_tb0GPQU-unsplash.jpg");
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .box4 {
   background-image: url("../Images/trent-bradley-uICqspTDw6k-unsplash.jpg");
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .text {
