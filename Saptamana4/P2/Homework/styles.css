@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+
+.container {
+    height: 100vh;
+    display: grid;
+    color:black;
+    background-color: salmon;
+
+}
+
+.red{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+
+    background-color: rgb(197, 51, 51);
+    
+
+}
+
+.white{
+    height: 20vh;
+    display:grid;
+    grid-gap:8%;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    background-color: turquoise;
+    margin:0;
+}
+
+.section{
+    display:grid;
+    
+}
+
+    
