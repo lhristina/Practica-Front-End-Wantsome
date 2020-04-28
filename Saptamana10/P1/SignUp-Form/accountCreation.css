@@ -1,0 +1,26 @@
+form {
+    display: inline-block;
+    width: 350px;
+    height: 800px;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border: ridge #ccc;
+    border-width: 8px;
+}
+
+.box{
+    width:300px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+#next{
+    background-color: black;
+    width: 300px;
+    height: 40px;
+    text-emphasis: NEXT;
+    color:white;
+    border-radius:3px
+}
