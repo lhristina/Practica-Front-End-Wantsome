@@ -1,7 +1,7 @@
 form {
     display: inline-block;
-    width: 350px;
-    height: 800px;
+    width: 20vw;
+    height: 100%;
     background-color: white;
     margin: 10px;
     padding: 30px;
@@ -10,17 +10,23 @@ form {
 }
 
 .box{
-    width:300px;
-    height: 20px;
+    width:100%;
+    height:2vh;
     border-radius: 3px;
     background-color: whitesmoke;
 }
-
 #next{
     background-color: black;
-    width: 300px;
-    height: 40px;
+    width: 100%;
+    height: 4vh;
     text-emphasis: NEXT;
     color:white;
     border-radius:3px
+}
+
+.redbox{
+    width:100%;
+    height:2vh;
+    border-radius: 3px;
+    background-color:rgb(224, 88, 88);  
 }
