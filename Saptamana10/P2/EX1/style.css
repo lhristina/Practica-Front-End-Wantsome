@@ -1,0 +1,17 @@
+.square{
+    height: 50px;
+    width: 50px;
+    margin:5px;
+    display: inline-block;
+   
+}
+
+.text{
+    color:black;
+    display: inline-block;
+}
+
+.parentBox{
+    display:flex;
+    align-items: center;
+}
