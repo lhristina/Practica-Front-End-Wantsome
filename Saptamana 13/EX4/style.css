@@ -1,0 +1,10 @@
+.mainContainer{
+    display: flex;
+    justify-content:  space-between;
+    margin:5vw;
+}
+
+body{
+    background: 
+    #eecda3;
+}
