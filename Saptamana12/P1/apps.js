@@ -76,16 +76,17 @@ Person.prototype.initialize = function(name, age)
 }
 
 
-let Trainer= new Person();
-Trainer.initialize('Bubulina', 20)
-console.log(Trainer);
-Trainer.teach()=(subject)=>{
-`${Trainer} is no teching ${subject}`
+let Trainer= function(subject){
+  this.subject= subject;
+  this.teach= function(){
+    console.log(`${this.name}is teaching ${this.sbject}`)
+  }
 }
 
-
-
-
+Trainer.prototype=new Person();
+let Bubulina = new Trainer('Cook')
+Bubulina.initialize('Bubulina')
+Bubulina.teach()
 
 
 //EX3
@@ -93,4 +94,25 @@ Trainer.teach()=(subject)=>{
 // triunghi.constructor;                 // Triangle(a, b, c)   
 // forma.isPrototypeOf(triunghi);        // true
 // triunghi.getPerimeter();              // 48
-// triunghi.getType();                   // "triunghi"
+// triunghi.getType();                   // "triunghip
+
+
+function(triangle)(a,b,c){
+  this.a=a
+  this.b=b
+  this.c=c
+  this.type="triunghi"
+}
+
+const forma ={
+  getType:function(){
+    return this.type
+  }
+}
+
+triangle.prototype=forma
+triangle.prototype.constructor= triangle
+let triunghi= new triangle(2,2,5)
+triunghi.getParameter= function(){
+  return this.a+this.b+this.c
+}

@@ -28,7 +28,6 @@ let displayVideo = function (array) {
         mainContainer.classList="mainContainer"
         let videoFromYoutube = document.createElement('iframe')
         videoFromYoutube.src = element.youtubeVideo
-
         let text = document.createElement('div')
         mainContainer.appendChild(text)
         text.innerText= element.title;

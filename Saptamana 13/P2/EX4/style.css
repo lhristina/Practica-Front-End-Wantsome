@@ -2,9 +2,9 @@
     display: flex;
     justify-content:  space-between;
     margin:5vw;
+    padding: 2vw;
 }
 
 body{
-    background: 
-    #eecda3;
+    background: whitesmoke
 }
