@@ -1,0 +1,97 @@
+@import 'mixins';
+@import 'nesting';
+@import 'variable';
+@import 'operators';
+
+
+
+body {
+    background: $color-wow no-repeat;
+    font-family: 'Merriweather', serif;
+}
+
+.mainLogo{
+    display:block;
+    text-align: center;
+    padding: 0;
+    margin:0;
+    width: 100%;
+    
+}
+
+.mainLogo img{
+    box-shadow: rgba(0, 0, 0, .5);
+}
+
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: rgba(0, 0, 0, .5);
+    padding: 0;
+    margin-bottom: 0.5vw;
+}
+
+.smallIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBox {
+    width: 30vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    align-self: center;
+    border: none;
+    background-color: $color-wow;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: rgba(0, 0, 0, .5);
+    padding: 0;
+}
+
+.searchBox:focus {
+    outline: none;
+}
+
+//image container
+
+.cycle-slideshow{
+    display:flex;
+    position: relative;
+    opacity: 0.6;
+}
+
+img {
+    position: relative;
+    max-width: 100%;
+    height: 890px;
+    width: 100%;
+}
+
+
+
+/*Povestea */
+
+.povestea {
+    display: flex;
+}
+
+.imgPovestea {
+    margin: 2vw;
+    width: 50vw;
+    height: 40vw;
+}
+
+.despreNoi {
+    margin: 2vw;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    margin: 2vw;
+}

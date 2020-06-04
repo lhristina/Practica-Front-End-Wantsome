@@ -52,3 +52,35 @@ displayPersonName('Mama', 'Mia');
 // const table = ...;
 // table.addTransaction(...)
 // console.log(table)
+
+class Account{
+    constructor(name, location) {
+      this.location = location;
+      this.name = name;
+    }
+  }
+  class Transaction{
+    constructor(sender, bank, amount, reference) {
+      this.sender = sender;
+      this.bank = bank;
+      this.amount = amount;
+      this.reference = reference;
+    }
+    get finalSum(){
+      return `${this.amount} - 10`;
+    }
+  }
+  class Table{
+    constructor(){
+      this.transactions = [];
+    }
+    addTransaction(...elem){
+      this.transactions.push(...elem)
+    }
+  }
+  const bankAccount = new Account('Bubulina', 'iasi')
+  const transaction1 = new Transaction('Dorinel', 'Ing', 20, 'benzina')
+  const transaction2 = new Transaction('Viorel' , 'BRD', 30, 'carti')
+  const table = new Table();
+  table.addTransaction(transaction1, transaction2)
+  console.log(table)
