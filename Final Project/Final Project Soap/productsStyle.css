@@ -1,0 +1,74 @@
+:root{
+    --prussian-blue: hsla(209, 69%, 24%, 1);
+    --lavender-blush: hsla(342, 5%, 95%, 1);
+    --gainsboro: hsla(340, 3%, 89%, 1);
+    --thistle: hsla(333, 14%, 81%, 1);
+    --copper-penny: hsla(358, 38%, 73%, 1);
+    --sky-blue-crayola: hsla(190, 49%, 95%, 1);
+    --celeste: hsla(173, 28%, 97%, 1);
+    --cultured: hsla(173, 3%, 97%, 1);
+    --piggy-pink: hsla(342, 13%, 97%, 1);
+    --french-pink: hsla(341, 64%, 100%, 1);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: black;
+    font-family: 'Courgette', cursive;
+}
+
+/* Navigation bar */
+
+.navbar{
+    position:sticky;
+    top:0;
+    height: 80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    background: url('/PozeProiect/annie-spratt-rmRa0OBAVoU-unsplash-nav4.jpg') center/cover fixed no-repeat;
+    z-index:1;
+}
+
+h1{
+    font-size: 2.5rem;
+    color:pink
+
+}
+.navbar-center{
+    width: 100%;
+    max-width: 1170px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    
+}
+
+.nav-icon{
+    font-size: 1.5rem;
+    color: pink
+}
+
+.cart-btn{
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-items{
+    position: absolute;
+    top:-9px;
+    right: -9px;
+    background:orchid;
+    padding: 0 5px;
+    border-radius: 30%;
+    color:var(--prussian-blue)
+}
+
