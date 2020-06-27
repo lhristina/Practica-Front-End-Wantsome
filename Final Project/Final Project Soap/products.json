@@ -1,0 +1,144 @@
+{
+    "items": [
+        {
+            "sys": {"id": "1"},
+            "fields": {
+                "title": "Milk Soap",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-1.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {"id": "2"},
+            "fields": {
+                "title": "Basil Soap",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-2.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "Goat Milk Soap",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-3.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "Face Cream",
+                "price": 50,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-4.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "Natural Lipstick",
+                "price": 30,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-5.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "Hand Cream",
+                "price": 40,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-6.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "Vanilla Soap",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-7.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "Body Oil",
+                "price": 50,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-8.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "9"
+            },
+            "fields": {
+                "title": "Bath Bomb",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "files": {
+                            "url": "./PozeProiect/work-9.jpg"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
