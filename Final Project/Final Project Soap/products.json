@@ -97,8 +97,8 @@
                 "id": "7"
             },
             "fields": {
-                "title": "Vanilla Soap",
-                "price": 10,
+                "title": "Bath Bombs",
+                "price": 30,
                 "image": {
                     "fields": {
                         "files": {
@@ -113,28 +113,12 @@
                 "id": "8"
             },
             "fields": {
-                "title": "Body Oil",
+                "title": "Vanilla Soap",
                 "price": 50,
                 "image": {
                     "fields": {
                         "files": {
                             "url": "./PozeProiect/work-8.jpg"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "sys": {
-                "id": "9"
-            },
-            "fields": {
-                "title": "Bath Bomb",
-                "price": 10,
-                "image": {
-                    "fields": {
-                        "files": {
-                            "url": "./PozeProiect/work-9.jpg"
                         }
                     }
                 }

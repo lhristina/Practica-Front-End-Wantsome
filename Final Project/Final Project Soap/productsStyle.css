@@ -32,7 +32,7 @@ body{
     width: 100%;
     display:flex;
     align-items: center;
-    background: url('/PozeProiect/annie-spratt-rmRa0OBAVoU-unsplash-nav4.jpg') center/cover fixed no-repeat;
+    background: url('PozeProiect/annie-spratt-rmRa0OBAVoU-unsplash-nav4.jpg') center fixed no-repeat;
     z-index:1;
 }
 
@@ -173,7 +173,7 @@ h2{
     right:0;
     width: 100%;
     height: 100%;
-    transition: 1s;
+    transition: all 0.3s linear;
     background: rgb(255, 192, 203, 0.5);
     z-index:2;
     visibility: hidden;
@@ -190,7 +190,7 @@ h2{
     z-index:3;
     background: rgb(255, 232, 232);
     padding: 1.5rem;
-    transition: 1s;
+    transition: all 0.3s linear;
     transform: translateX(100%);
 }
 
@@ -204,7 +204,7 @@ h2{
 
 @media screen and (min-width:768px){
     .cart{
-        width: 30wh;
+        width: 30vw;
         min-width: 450px;
     }
 }
@@ -264,6 +264,20 @@ h2{
 
 
 /* end of cart item */
+.clear-cart{
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    z-index:3;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin:0;
+    color:pink;
+    background: var(--prussian-blue);
+}
+
 .cart-footer{
     margin-top: 2rem;
     letter-spacing: 0.1rem;
@@ -275,18 +289,7 @@ h2{
     margin-bottom: 1rem;
 }
 
-.clear-cart{
-    width: 15rem;
-    height: 5rem;
-    border: none;
-    font-size: 1rem;
-    text-transform: capitalize;
-    letter-spacing: 0.2rem;
-    font-weight: bold;
-    margin:0;
-    color:pink;
-    background: var(--prussian-blue);
-}
+
 /* end of cart */
 
 
